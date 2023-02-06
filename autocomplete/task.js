@@ -74,7 +74,7 @@ class Autocomplete {
       for (let i = 0; i < options.length; i++){
 
         if (options[i].text.includes(text)) {
-          arrSelect.push({ text: options[i].text, value: options[i].value })
+          array.push({ text: options[i].text, value: options[i].value })
         }
         
       }
