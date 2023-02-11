@@ -15,7 +15,7 @@ chatWidget.addEventListener('click', () => {
 
 
 submitInp.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' && submitInp.value !== '') {
+    if (event.key === 'Enter' && submitInp.value.trim() !== '') {
         let now = new Date().toLocaleTimeString().slice(0,-3)
 
         messages.innerHTML += `
